@@ -1,0 +1,35 @@
+POST http://localhost:3000/report
+Content-Type: application/json
+
+{
+     "ngoId": "NGO001", 
+     "month": "2025-01"
+}
+
+###
+
+GET http://localhost:3000/job-status/11111111-1111-1111-1111-111111111111
+
+###
+POST http://localhost:3000/reports/upload
+Content-Type: multipart/form-data; boundary=boundary123
+
+--boundary123
+Content-Disposition: form-data; name="file"; filename="reports.csv"
+Content-Type: text/csv
+
+ngoId,month,peopleHelped,eventsConducted,fundsUtilized
+NGO001,2025-01,100,5,25000
+NGO002,2025-01,50,2,12000
+NGO001,2025-01,20,1,3000
+--boundary123--
+
+###
+
+GET http://localhost:3000/job-status/315fa8a1-e7c9-4fd5-806b-8ccbf60eb487
+
+###
+
+GET http://localhost:3000/dashboard?month=2025-01
+
+

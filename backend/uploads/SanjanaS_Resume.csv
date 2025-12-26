@@ -1,0 +1,76 @@
+,Sanjana Satheesh 
+,"sanjanasatheesh.ss@gmail.com | +91-9895980618 |Bangalore, India "
+,GitHub | LinkedIn | Portfolio 
+Professional Summary ,
+"Software Engineer with hands-on experience in Python, C++, and backend API development. Fast learner with the",
+ability to adapt to new technologies and contribute effectively in team-driven projects. ,
+Work Experience ,
+Sept 2024 – Sept 2025 ,
+"Fidelity Investments, Chennai ",
+Data Engineering Apprentice ,
+PROJECT: Centralized Power BI Dashboard for Database Operations ,
+RESPONSIBILITIES: ,
+ ,"Built centralized dashboard in Power BI for monitoring Jira intakes, server status, and DBA activities. "
+ ,Connected to Snowflake using SQL queries and automated Azure Portal data pulls with HTTP calls. 
+ ,Collaborated with DBA team to convert manual tracking into real-time dashboards. 
+PROJECT: UDeploy Pipeline Migration to Jenkins ,
+RESPONSIBILITIES: ,
+ ,"Migrated pipelines to Jenkins, creating automation scripts in Bash and maintaining repo on GitHub. "
+Enhanced CI/CD reliability and created documentation for team onboarding. ,
+DESCRIPTION: Worked as DBA with team responsible for managing and supporting databases across on-prem and,
+"cloud environments, ensuring performance, availability, and operational efficiency. ",
+RESPONSIBILITIES: ,
+ ,"Managed access controls, database patching, and Azure rehydration tasks. "
+Education ,
+B.Tech in Electronics & Communication Engineering,Aug 2019-Aug 2023 
+"College of Engineering, Chengannur (APJ Abdul Kalam Technological University)",
+Higher Secondary & High School ,
+"Toc H Public School, Kochi, Kerala (CBSE) ",
+"Embedded Systems Training (Vector India, 2023-2024) ",
+ ,"C, C++, DSA"
+ ,ARM7 architecture fundamentals 
+ ,Linux OS internals 
+ ,"Protocols: I2C, UART, SPI "
+ ,Real-time concepts & debugging basics 
+Projects ,
+"Cute Formatter | Next.js, React, Tailwind CSS, LLMs (OpenRouter), Three.js, Puppeteer ",
+ ,"Built an AI-powered text formatting tool that converts unstructured text into structured, stylable sections"
+,using LLM-based parsing. 
+ ,"Designed an interactive, Web3-inspired UI with pastel 3D backgrounds, mouse-based parallax, and smooth"
+,animations using React Three Fiber. 
+ ,"Implemented export functionality for HTML, high-resolution PNG, and PDF, addressing real-world challenges"
+,"with modern CSS, large payloads, and UI layering. "
+"Portfolio (JavaScript + Tailwind CSS + Vite+ HTML, CSS+ ESLint + npm) ",
+ ,"Built a client-side portfolio site using JavaScript and Tailwind CSS for fast, responsive UI development. "
+ ,"Configured modern front-end tooling: Vite for development/build, PostCSS + tailwind.config.js for styling"
+,"pipeline, and eslint.config.js for code quality. "
+ ,"Prepared project for publication: npm-managed dependencies, a public/ directory for deployment, and"
+,repository configured for GitHub Pages hosting. ,
+Clickstream Analytics Pipeline,(Kafka + FastAPI +,PostgreSQL+ Grafana) 
+ ,Built REST API endpoints using FastAPI for collecting and exposing clickstream event metrics. ,
+ ,Designed a Kafka Producer–Consumer system for real-time event ingestion. ,
+ ,Integrated PostgreSQL and built observability via Prometheus + Grafana. ,
+ ,Containerized via Docker Compose for full-stack automation. ,
+"Merchant Payment Integration API (Java, Spring Boot, MySQL, REST API, Swagger) ",,
+ ,"Implemented REST APIs for transactions, refunds, and settlements. ",
+ ,Added Swagger documentation + clean layered architecture. ,
+"Concurrent Chat Room (C++, TCP/IP, Multithreading)",,
+ ,Developed a multi-client chat system with socket programming and concurrency handling. ,
+ ,"Managed client-state handling, message routing, and thread synchronization. ",
+" Library Management System (C++, STL) ",,
+ ,Developed a command-line system using STL containers and algorithms for CRUD operations. ,
+Technical Skills ,,
+Languages," : C, C++, SQL, Python ",
+Frontend ,": JavaScript, HTML, CSS, Tailwind CSS, Vite, Basic React ",
+Backend ,": FastAPI, RestAPI ",
+Databases ,": PostgreSQL, MySQL ",
+Cloud/Tools," : Azure, Jenkins, Git/GitHub, Docker ",
+Data/Analytics,": Power BI, Grafana, Prometheus ",
+Training & Certifications ,,
+ ,"Vector Institute – Embedded Systems Training (2023 – 2024): C, C++, ARM7, Protocols, Linux OS ",
+ ,OCI AI Foundations Associate ,
+ ,Oracle AI Vector Search Certified Professional ,
+ ,Microsoft Azure Data Fundamentals DP-900 Exam Prep ,
+ ,Software Engineering Essentials by IBM ,
+Workshops ,,
+"Flutter App Development Workshop – IEDC Centre, SJCET Palai ",,
