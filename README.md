@@ -86,3 +86,65 @@ The system avoids unnecessary abstractions, queues, or real-time protocols to ke
 ## API Endpoints
 
 ### Submit Single Report
+- POST /report
+
+### Upload CSV Reports
+- POST /reports/upload
+
+### Get Job Status
+- GET /job-status/{jobId}
+
+### Dashboard Summary
+- GET /dashboard?month=YYYY-MM
+
+
+---
+
+## Running the Project Locally
+
+### Prerequisites
+- Node.js
+- PostgreSQL
+
+### Backend Setup
+```bash
+cd backend
+npm install
+```
+
+### Set environment variable:
+```.env
+DATABASE_URL=postgresql://postgres:<password>@localhost:5432/ngo_reports
+```
+
+### Start server:
+```bash
+npm start
+```
+- Backend runs on http://localhost:3000
+
+### Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+```
+- Frontend runs on http://localhost:5173
+
+### CSV Format
+-The CSV file must contain the following headers:
+```csv
+ngoId,month,peopleHelped,eventsConducted,fundsUtilized
+```
+
+### Error Handling & Idempotency
+- Duplicate NGO + month submissions are rejected
+- CSV rows that fail validation or violate constraints are skipped
+- Job progress continues despite partial failures
+- Errors are surfaced clearly in API responses and UI
+
+### Design Decisions
+- Polling is used instead of WebSockets for job progress due to low update frequency
+- Aggregations are performed using SQL instead of frontend computation
+- Background processing is done without external queues to keep the system simple
+- Database constraints are used to enforce data correctness
